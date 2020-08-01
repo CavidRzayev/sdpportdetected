@@ -1,2 +1,2 @@
 # sdpportdetected
-# python run.py -t <ip address>
+python run.py -t "ip address"
