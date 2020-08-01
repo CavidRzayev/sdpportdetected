@@ -1,4 +1,3 @@
-#-* coding: utf-8 -*-
 import os,re,codecs,socket,contextlib,pickle,sys
 
 parser = lambda data: [[key,"|".join(data['match']['versioninfo'][key])] for key in data['match']['versioninfo'].keys() if data['match']['versioninfo'][key]] if "match" in data.keys() and "versioninfo" in data['match'].keys() else None
